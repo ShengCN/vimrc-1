@@ -13,6 +13,14 @@ source ~/.vim_runtime/vimrcs/extended.vim
 try
 source ~/.vim_runtime/my_configs.vim
 catch
-endtry' > ~/.vimrc
+endtry
+
+let g:gruvbox_contrast_dark = "medium"
+set t_Co=256
+set background=dark
+
+syntax enable
+colorscheme gruvbox
+' > ~/.vimrc
 
 echo "Installed the Ultimate Vim configuration successfully! Enjoy :-)"
