@@ -16,6 +16,7 @@ catch
 endtry
 
 let g:gruvbox_contrast_dark = "medium"
+set number
 set t_Co=256
 set background=dark
 
